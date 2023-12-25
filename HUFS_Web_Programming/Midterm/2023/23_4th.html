@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>2023년 중간고사 4번</title>
+
+    <script>
+      let webs = ["HTML5", "CSS3", "JavaScript"];
+
+      function midTerm04(obj) {
+ 				let a = prompt("hcj 중 한 단어를 입력하세요");
+				if ( a == null | a == ""){
+					result.innerHTML= "입력한 내용이 없거나 잘못 입력하였습니다!"
+				}
+			    else if (a == "h") {
+					//result.innerHTML = "h: HTML5"
+					//result.style.color = "blue"
+					document.write(webs[0]);
+				}
+				else if ( a== "c") {
+					document.write(webs[1]);
+				}
+				else if (a == "j") {
+					document.write(web[2]);
+				}
+      }
+    </script>
+		
+  </head>
+  <body>
+    <h3>Web 구성 요소</h3>
+    <hr />
+    <div onclick="midTerm04(this)" style = "color : blue">여기를 클릭하세요</div>
+  </body>
+</html>
