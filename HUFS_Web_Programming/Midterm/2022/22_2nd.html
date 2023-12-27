@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>2번 문제</title>
+  </head>
+	<style>
+		@keyframes textColorAnimation {
+			0%{color:black;}
+			50%{color:red;}
+			100%{color:blue;}
+		}
+		div>ol>li{
+			padding-left:5px;
+			margin-bottom:10px;
+			font-size:35px;
+			font-weight:bold;
+			font-style:italic;
+			font-family:'Helvetica';
+			list-style:None;
+		}
+		div>ol>li>span{
+			animation-name: textColorAnimation;
+			animation-duration : 3s;
+			animation-iteration-count: infinite;
+		}
+	</style>
+  <body>
+    <h3>Founding Spirit</h3>
+    <hr />
+    <div>
+      <ol>
+        <li><span>T:</span>Truth</li>
+        <li><span>P:</span>Peace</li>
+        <li><span>C:</span>Creation</li>
+      </ol>
+    </div>
+  </body>
+</html>
