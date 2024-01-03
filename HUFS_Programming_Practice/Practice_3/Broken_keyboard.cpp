@@ -10,7 +10,7 @@ int con(char a);
 
 int main() {
 	string a; int c = 0;
-	cout << "������ �Է��ϼ��� :";
+	cout << "문장을 입력하세요 :";
 	getline(cin, a);
 	int length = a.length();
 	int plus = length;
